@@ -1,5 +1,4 @@
 
-import './App.css';
 
 import PageHeader from './Components/Header';
 import Amenities from './Components/Amenities';
@@ -8,7 +7,7 @@ import MeetingBanner from './Components/Banner'
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <PageHeader/>
       <MeetingBanner/>
       <Amenities/>
