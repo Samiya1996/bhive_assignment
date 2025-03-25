@@ -2,14 +2,11 @@ import { Button, Card, CardContent } from "@mui/material";
 import React from "react";
 import { LocationOn } from "@mui/icons-material";
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
-import DiamondIcon from '@mui/icons-material/Diamond';
-import BusinessIcon from '@mui/icons-material/Business';
 
 const SpaceOverviewCard = ({item}) =>{    
     return (
        <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
-    <Card sx={{ width: 280, height: 280, padding: 2, position: "relative" }}>
+        <Card sx={{ width: 280, height: 280, padding: 2, position: "relative" }}>
       <div container style={{ display: "flex", justifyContent: "space-between", fontSize: 12, color: "gray" }}>
         <div item style={{ flexGrow:1,textAlign:"left", width: "75%",fontSize:"17px",color:"black",fontWeight:600 }}>{item.name}</div>
         <div item style={{ flexDirection: "column", display: "flex", alignItems: "center", background: "#f0f0f0", padding: "4px 8px", borderRadius: 4 }}>
